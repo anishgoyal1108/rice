@@ -27,3 +27,4 @@ My desktop rice, with a "light" cyberpunk aesthetic
 
 You can find my Desktop wallpaper [here](https://imgur.com/a/wX1cq0I)
 Inspiration taken from [this](https://www.youtube.com/watch?v=1uHQ1493c04) video. It was outdated, so I made a couple of adjustments to work again. You can find more of their work [here](https://github.com/sysadmin-info),
+Additional inspiration taken from [here](https://www.reddit.com/r/unixporn/comments/1200h9o/i3wm_black_and_white_minimalist_rice/)
