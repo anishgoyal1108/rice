@@ -12,6 +12,7 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Spotify
 * http://www.dafont.com/ll-record.font (for the play symbol)
 * Fira Sans Condensed
+* Roboto
 * Fira Code Pro
 * imagemagick
 
