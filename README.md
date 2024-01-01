@@ -12,4 +12,5 @@ my conky + tilda config, with a modern "light" cyberpunk aesthetic
 * Current weather and temperature using OpenWeatherAPI
 * CPU, GPU, and Proc memory charts
 * "Now playing" from Spotify
+* OS name, filesystem consumption, read/write
 * Uptime
