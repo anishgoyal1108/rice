@@ -10,7 +10,7 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Cava
 * Python
 * http://www.dafont.com/ll-record.font (for the play symbol)
-* Fira Sans Condensed-Book
+* Fira Sans Condensed
 * Fira Code Pro
 * imagemagick
 
