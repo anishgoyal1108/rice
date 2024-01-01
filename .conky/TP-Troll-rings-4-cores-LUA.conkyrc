@@ -1,0 +1,109 @@
+--[[
+#=====================================================================================
+#                               arcolinux
+# Date    : package-date
+# Author  : Erik Dubois at http://www.erikdubois.be
+# Version : package-version
+# License : Distributed under the terms of GNU GPL version 2 or later
+# Documentation : http://erikdubois.be
+#======================================================================================
+# CONKY
+# For commands in conky.config section:
+# http://conky.sourceforge.net/config_settings.html
+#
+# For commands in conky.text section:
+# http://conky.sourceforge.net/variables.html
+#
+# A PDF with all variables is provided
+#=====================================================================================
+# FONTS
+# To avoid copyright infringements you will have to download
+# and install the fonts yourself sometimes.
+#=====================================================================================
+# GENERAL INFO ABOUT FONTS
+# Go and look for a nice font on sites like http://www.dafont.com/
+# Download and unzip - double click the font to install it (font-manager must be installed)
+# No font-manager then put fonts in ~/.fonts
+# Change the font name in the conky
+# The name can be known with a command in the terminal: fc-list | grep "part of name"
+# Change width and height of the conky according to font
+# Reboot your system or fc-cache -fv in terminal
+# Enjoy
+#=====================================================================================
+# FONTS FOR THIS CONKY
+# no extra font(s) needed
+#======================================================================================
+
+]]
+
+conky.config = {
+
+	--Various settings
+
+	background = true, 								-- forked to background
+	update_interval = 3,								-- update interval	
+	cpu_avg_samples = 2,								-- The number of samples to average for CPU monitoring.
+	net_avg_samples = 2,								-- The number of samples to average for net data
+	double_buffer = true,								-- Use the Xdbe extension? (eliminates flicker)
+	no_buffers = true,								-- Subtract (file system) buffers from used memory
+	text_buffer_size = 2048,							-- size of buffer for display of content of large variables - default 256
+	imlib_cache_size = 0,           						-- disable image cache to get a new spotify cover per song
+
+	--Placement
+
+	alignment = 'top_left',								-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
+                                  							-- middle_left,middle_middle,middle_right,none
+	gap_x = 20,									-- pixels between right or left border
+	gap_y = 79,									-- pixels between bottom or left border
+	minimum_height = 300,								-- minimum height of window
+	minimum_width = 600,								-- minimum width of window
+	maximum_width = 1024,								-- maximum width of window
+
+	--Graphical
+
+	border_inner_margin = 0, 							-- margin between border and text
+	border_outer_margin = 0, 							-- margin between border and edge of window
+	draw_borders = false,								-- draw borders around text
+	draw_graph_borders = false,				 			-- draw borders around graphs
+	draw_shades = false,								-- draw shades
+	draw_outline = false,								-- draw outline	
+
+	--Textual
+
+	use_xft = true,									-- xft font - anti-aliased font
+	xftalpha = 0.8,									-- alpha of the xft font - between 0-1
+	override_utf8_locale = true,							-- force UTF8 requires xft
+	font = 'Roboto:size=18',     							-- font for complete conky unless in code defined
+	uppercase = true,								-- uppercase or not
+
+	--Windows
+
+	own_window = true,								-- create your own window to draw
+	own_window_argb_value = 0,							-- real transparency - composite manager required 0-255
+	own_window_argb_visual = true,							-- use ARGB - composite manager required
+	own_window_class = 'Conky',							-- manually set the WM_CLASS name for use with xprop
+	own_window_colour = '000000',							-- set colour if own_window_transparent no
+	own_window_transparent = false,							-- if own_window_argb_visual is true sets background opacity 0%
+	own_window_title = 'system_conky',						-- set the name manually  - default conky "hostname"
+	own_window_type = 'normal',							-- if own_window true options are: normal/override/dock/desktop/panel
+	own_window_hints = 'undecorated,sticky,skip_taskbar,skip_pager,below',		-- if own_window true - just hints - own_window_type sets it
+
+
+	--Colours
+
+	default_color = '#000000',  							-- default color and border color
+
+	-- Lua Load
+
+	lua_load = "~/.conky/lua/clock_rings.lua",
+	lua_draw_hook_pre = "clock_rings"
+
+};
+
+conky.text = [[
+${voffset 130}${goto 123}${font Roboto:size=24}${time %H:%M}${voffset -38}${font Roboto:size=10}${font}
+${voffset -8}${goto 268}${hr 2}
+${voffset -70}${goto 278}${cpugraph 50,285 d5dcde 000000}
+${voffset 16}${goto 285}${time %A %B %d}
+#${font Santana:size=14}${voffset -120}${goto 300}BATTERY     ${battery BAT0}
+]];
