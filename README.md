@@ -20,7 +20,7 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * OS name, filesystem consumption, read/write
 * Uptime
 
-# Instructions
+## Instructions
 * Move tilda to your ~/.config folder
 * Move .hamattan-assets, .conkyrc, and .conky to your home folder
 * Edit .conkyrc with your own OpenWeather API key and any other adjustments as you see fit.
