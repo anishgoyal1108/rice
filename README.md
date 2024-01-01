@@ -14,3 +14,5 @@ my conky + tilda config, with a modern "light" cyberpunk aesthetic
 * "Now playing" from Spotify
 * OS name, filesystem consumption, read/write
 * Uptime
+
+You can find my Desktop wallpaper [here](https://imgur.com/a/wX1cq0I)
