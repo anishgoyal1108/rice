@@ -8,6 +8,10 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Tilda
 * Conky
 * Cava
+* Python
+* http://www.dafont.com/ll-record.font (for the play symbol)
+* https://www.dafont.com/roboto.font (for displaying artist and album name)
+* imagemagick
 
 ## Features
 * A MonsterCat-esque audio visualizer at the bottom of your desktop
