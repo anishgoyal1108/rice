@@ -10,7 +10,7 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Cava
 
 ## Features
-* A monster cat-esque audio visualizer at the bottom of your desktop
+* A MonsterCat-esque audio visualizer at the bottom of your desktop
 * The current date and time
 * RAM and CPU usage
 * Process monitor
