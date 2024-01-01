@@ -27,11 +27,18 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * OS name, filesystem consumption, read/write
 * Uptime
 
-## Instructions
+## Installation
 * Move tilda and cava to your ~/.config folder
 * Move .hamattan-assets, .conkyrc, and .conky to your home folder
 * Edit .conkyrc with your own OpenWeather API key and any other adjustments as you see fit.
 * You can find my Desktop wallpaper [here](https://imgur.com/a/wX1cq0I) or use your own
+
+## Usage
+* Make .conky/conky-delay.sh executable (`chmod +x conky-delay.sh`)
+* Run the executable (`./conky-delay.sh`)
+
+## Can I Run It On Startup?
+Yes. Just call the executable in your ~/.config/autostart folder. 
 
 ## Credits
 Inspiration taken from [this](https://www.youtube.com/watch?v=1uHQ1493c04) video. You can find more of their *amazing* work [here](https://github.com/sysadmin-info), though it's slightly dated
