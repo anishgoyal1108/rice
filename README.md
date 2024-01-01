@@ -9,14 +9,15 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Conky
 * Cava
 * Python
+* Spotify
 * http://www.dafont.com/ll-record.font (for the play symbol)
 * Fira Sans Condensed
 * Fira Code Pro
 * imagemagick
 
 ## Features
-* A MonsterCat-esque audio visualizer at the bottom of your desktop
-* The current date and time
+* MonsterCat-esque audio visualizer at the bottom of your desktop
+* Current date and time
 * RAM and CPU usage
 * Process monitor
 * Current weather and temperature using OpenWeatherAPI
