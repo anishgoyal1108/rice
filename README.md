@@ -21,10 +21,9 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Uptime
 
 # Instructions
-* Move .tilda and .conky to your ~/.config folder
-* Move .hamattan-assets to your home folder
-* Move .conkyrc to your home folder
-* Edit .conkyrc with the appropriate API key and other adjustments as you see fit.
+* Move tilda to your ~/.config folder
+* Move .hamattan-assets, .conkyrc, and .conky to your home folder
+* Edit .conkyrc with your own OpenWeather API key and any other adjustments as you see fit.
 
 You can find my Desktop wallpaper [here](https://imgur.com/a/wX1cq0I)
 Inspiration taken from [this](https://www.youtube.com/watch?v=1uHQ1493c04) video. It was outdated, so I made a couple of adjustments to work again. You can find more of their work [here](https://github.com/sysadmin-info),
