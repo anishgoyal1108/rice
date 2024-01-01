@@ -1,5 +1,5 @@
 # rice
-my conky + tilda config, with a modern "light" cyberpunk aesthetic
+My desktop rice, with a "light" cyberpunk aesthetic
 
 ## Does this look cool?
 ![image](https://github.com/anishgoyal1108/rice/assets/90469168/87b38696-abb4-4f23-b56d-516e1d0c99ed)
