@@ -6,7 +6,7 @@ My desktop rice, with a "light" cyberpunk aesthetic
 
 ## Dependencies
 * Tilda
-* Conky
+* Conky Lua (conky-lua-nv on NVIDIA systems)
 * Cava
 * Python
 * Spotify
