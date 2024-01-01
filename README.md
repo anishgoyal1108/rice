@@ -10,7 +10,8 @@ My desktop rice, with a "light" cyberpunk aesthetic
 * Cava
 * Python
 * http://www.dafont.com/ll-record.font (for the play symbol)
-* https://www.dafont.com/roboto.font (for displaying artist and album name)
+* Fira Sans Condensed-Book
+* Fira Code Pro
 * imagemagick
 
 ## Features
