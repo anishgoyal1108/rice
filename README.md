@@ -41,5 +41,8 @@ My desktop rice, with a "light" cyberpunk aesthetic
 Yes. Just call the executable in your ~/.config/autostart folder. 
 
 ## Credits
-Inspiration taken from [this](https://www.youtube.com/watch?v=1uHQ1493c04) video. You can find more of their *amazing* work [here](https://github.com/sysadmin-info), though it's slightly dated
+Inspiration taken from [this](https://www.youtube.com/watch?v=1uHQ1493c04) video. 
+
+You can find more of their *amazing* work [here](https://github.com/sysadmin-info), though it's slightly dated
+
 Additional inspiration taken from [this Reddit thread](https://www.reddit.com/r/unixporn/comments/1200h9o/i3wm_black_and_white_minimalist_rice/)
