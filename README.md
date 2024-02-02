@@ -5,6 +5,7 @@ My desktop rice, with a "light" cyberpunk aesthetic
 ![image](https://github.com/anishgoyal1108/rice/assets/90469168/c4bcaf59-9a82-4a93-b4db-bf04d6721ad2)
 
 ## Dependencies
+* GNOME/GDM-based DE
 * Tilda
 * Conky Lua (conky-lua-nv on NVIDIA systems)
 * Cava
