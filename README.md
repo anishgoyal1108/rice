@@ -1,4 +1,4 @@
-# rice
+# Cyberpunk Arch Linux Rice
 My desktop rice, with a "light" cyberpunk aesthetic
 
 ## Does this look cool?
